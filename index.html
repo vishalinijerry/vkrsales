@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKR GROUPS ALL SALES</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<div class="top"></div>
+<div id="clockContainer">
+    <div id="hour"></div>
+    <div id="minute"></div>
+    <div id="second"></div>
+</div>
+    <center>
+        <div class="whole">
+
+    <h1>V.K.R GROUPS SALES</h1>
+    <br>
+   <a href="./hero.html"> <button>V.R.M HERO</button></a>
+   <a href="./yamaha.html"> <button>MITHUN YAMAHA</button></a>
+   
+   <a href="./residency.html"> <button>V.K.R RESIDENCY</button></a>
+   
+</div>
+<div class="row2"></div>
+    <center>
+        <!-- <div class="whole">
+   <a href="./heroinvoice.html"> <button>V.R.M HERO CUSTOMER INVOICE</button></a>
+   <a href="./yamahainvoice.html"> <button>MITHUN YAMAHA CUSTOMER INVOICE</button></a>
+   
+  
+   
+</div> -->
+
+
+
+<div class="btm">
+    <h3>Powered by  <a href="https://www.gvtechfix.com/"><b style="color: blue;">GV IT INFRA SERVICES</b></a> for support Call  <b style="color: blue;">+91 63830 78776</b></h3>
+</div><br>
+
+</center>
+<script>
+    setInterval(() => {
+	d = new Date(); //object of date()
+	hr = d.getHours();
+	min = d.getMinutes();
+	sec = d.getSeconds();
+	hr_rotation = 30 * hr + min / 2; //converting current time
+	min_rotation = 6 * min;
+	sec_rotation = 6 * sec;
+
+	hour.style.transform = `rotate(${hr_rotation}deg)`;
+	minute.style.transform = `rotate(${min_rotation}deg)`;
+	second.style.transform = `rotate(${sec_rotation}deg)`;
+}, 1000);
+
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 17px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.whole{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.img{
+    width: 140px;
+    height: 120px;
+    /* margin-bottom: 30px; */
+    /* margin-top: 20px; */
+}
+/* .whole .content{
+    text-align: center;
+} */
+.location{
+    text-align: end;
+
+}
+.contact{
+    text-align: end;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    /* align-items: center; */
+    justify-content: center;
+}
+input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(141, 131, 131);
+    border-radius: 2px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 30px; */
+    /* margin-left:10px ; */
+    /* margin-right: 10px; */
+
+}
+#name{
+    margin-left: 10px;
+}
+
+#idmodel{
+    padding: 7px;
+    padding-left: 15px;
+    /* padding-right: 40px; */
+    border: 1px solid rgb(141, 131, 131);
+    border-radius: 5px;
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
+    margin-left:12px ;
+    /* margin-right: 40px; */
+
+}
+#iddetails{
+    width: 140px;
+    /* margin-top: 10px; */
+}
+
+
+#roomtype{
+    padding: 9px;
+    /* padding-left: 20px; */
+    /* padding-right: 30px; */
+    border: 1px solid rgb(141, 131, 131);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left:10px ;
+    /* margin-right: 10px; */
+}
+#checkin{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    width: 167px;
+    
+}
+#checkout{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    width: 167px;
+}
+#total{
+    /* margin-top: 10px; */
+    width: 160px;
+    margin-left: 10px;
+
+
+}
+#adv{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    width: 160px;
+    
+}
+#bal{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    width: 160px;
+    
+}
+#b{
+    
+}
+
+
+
+#r1{
+    display: flex;
+    justify-content: space-between;
+}
+#r2{
+    display: flex;
+    justify-content: space-between;
+}
+#r3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#r4amt{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+}
+#r5{
+    display: flex;
+    justify-content: space-between;
+}
+#r6{
+    display: flex;
+    justify-content: center;
+}
+#addr{
+    
+  
+    margin-top:10px;
+    /* margin-left: 50px; */
+    padding-bottom: 15px;
+    padding-right:150px;
+    
+    border: none;
+    border-bottom: 1px solid rgb(141, 131, 131);
+    font-size: 15px;
+
+}
+
+#print{
+    padding: 10px 50px;
+    border: 2px solid brown;
+    margin-top: 10px;
+    /* margin-inline-start: 40px; */
+
+}

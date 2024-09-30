@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V.K.R RESIDENCY</title>
+    <link rel="stylesheet" href="residency.css">
+    <link rel="icon" href="./images/vrm logo.jpg">
+</head>
+<body>
+    <div class="top">
+        <h3>V . K . R . GROUPS </h3>
+    </div>
+    <hr>
+    <div class="whole">
+
+    
+    <div class="img">
+        <img src="./images/vrm logo.jpg" alt="">
+    </div>
+    <div class="content">
+        <h1>V.K.R Residency<br><h5>Saliyamangalam Road ,Papanasam - 614 207 ,Phone:+91 90438 98028  </h5> </h1><br>
+
+    </div>
+    </div>
+    
+    <ul id="r1">
+        <li>
+            <label for="fname">Customer Name</label>
+            <input type="text" id="fname" name="fname" value="">
+        </li>
+        <li>
+            <label for="fname">ID Proof</label>
+            <!-- <input type="text" id="fname" name="fname" value=""> -->
+            <select name="id modle"  id="select" >
+                <option value=""> Type of ID</option>
+                <option value="">Aadhar Card</option>
+                <option value="">PAN Card</option>
+                <option value="">Passport</option>
+                <option value="">Others</option>
+            </select>
+        </li>
+        <li>
+            <label for="fname">ID Details</label>
+            <input type="text" id="fname" name="fname" value="">
+        </li>
+    </ul>
+    <ul id="r2">
+        <li>
+            <label for="fname"> Room Type</label>
+            <select name="" id="roomtype">
+                <option value="">single room -AC</option>
+                <option value="">Single roon-Non AC</option>
+                <option value=""> Double room-AC</option>
+                <option value="">Double room-Non AC</option>
+            </select>
+            <!-- <input type="text" id="fname" name="fname" value=""> -->
+            <!-- <input type="radio" name="type" id="">AC
+            <input type="radio" name="type" id="">Non AC -->
+        </li>
+        
+        <li>
+            <label for="fname">Check In</label>
+            <input type="datetime-local" id="fname" name="fname" value="">
+        </li>
+        <li>
+            <label for="fname">Check Out</label>
+            <input type="datetime-local" id="fname" name="fname" value="">
+        </li>
+    </ul>
+    <ul id="amt">
+        <li> 
+            <label for="total">Total :</label>
+            <input type="number" id="total" name="to" value="">
+
+        </li>
+        <li>
+            <label for="advance">Advance:</label>
+            <input type="number" id="adv" name="ad" value="">
+        </li>
+        <li>
+            <label for="balance" id="b">Balance:</label>
+            <input type="number" onclick="balance()" id="bal" name="balanz" value="">
+        </li>
+       
+        
+    </ul>
+    <ul>
+        <li>
+            <textarea name="" placeholder="Address" id="addr" rows="3" cols="50" class="addr"></textarea>
+        </li>
+    
+    </ul>
+    <ul>
+        <li><button id="print" onclick="window.print()">INVOICE</button></li>
+    </ul>
+ 
+
+    <script src="./jsresid.js"></script>
+</body>
+</html>
